@@ -32,9 +32,13 @@ Descarga los archivos del proyecto, despliega la base de datos, configura los da
 py app.py
 ```
 La aplicación está desarrollada en línea de comandos. Verás la siguiente información. A partir de ahora eres libre para ejecutar y probar la aplicación.
-## Screenshots
-![Screenshot 1](/docs/img/ss1.png)
-![Screenshot 2](/docs/img/ss2.png)
-![Screenshot 3](/docs/img/ss3.png)
-![Screenshot 4](/docs/img/ss4.png)
-![Screenshot 5](/docs/img/ss5.png)
+## Capturas de pantalla
+### Interfaz de usuario en línea de comandos
+![Screenshot 1](/img/imagen1.png)
+Evento por termperaturas máximas generado en un zona geográfica.
+![Screenshot 2](/img/imagen2.png)
+Lista de los eventos de las últimas 24 horas.
+![Screenshot 3](/img/imagen3.png)
+<p align="center">
+ Creado con mucho ❤️ por Alberto López Navarro en Valdepeñas
+</p>

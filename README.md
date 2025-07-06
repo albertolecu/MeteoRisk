@@ -1,2 +1,40 @@
-# MeteoRisk
+<h1 align="center">
+    <br>
+    MeteoRisk
+    <br>
+</h1>
+
+<p align="center">
 Aplicación Web con Fuentes de Datos Abiertos para Notificacones sobre Fenómenos Meteorológicos Adversos
+</p>
+
+## Descripción
+En este repositorio de código encontrarás la prueba de concepto del proyecto. MeteoRisk es un sistema de información que utiliza fuentes de datos abiertos para para tratar de enviar notificaciones a la población sobre fenómenos meteorolígicos adversos.
+La aplicación ha sido creada con el lenguaje de programación **Python** versión 3.12.7 y como base de datos **MySQL** versión 9.1.0.
+## Aspectos clave
+* Extrae información de determinadas fuentes abiertas de datos, como pueden ser AEMET OpenData, los SAIH de las confederaciones hidrográficas y el portal de datos abiertos del Gobierno de España.
+* Transforma los datos descargados y los convierte en información útil y manejable por el usuario.
+* Analiza si se han rebasado determinados umbrales y en caso positivo, genera eventos que se convertirán en notificaciones dirigidas a los usuarios registrados.
+## Base de datos
+* Debes disponer de un servidor de bases de datos MySQL compatible con la version 9.1.0 o superior.
+* Descarga el archivo **meteo_db.sql** e impórtalo en tu servidor.
+* Descarga el archvio **insert_datos.sql*** e impórtalo en el servidor. El fichero contine los datos necesarios para realizar la prueba de concepto.
+## Instalación 
+* Edita el fichero **configuracion.py** con los datos de conexión de tu servidor y con tu APY_KEY de la AEMET. 
+* En el fichero **requirements.txt** encontrarás los paquetes necesarios del proyecto. Recomiendo crear un entorno virtual.
+Ejecuta la siguiente instrucción en la línea de comandos:
+```python
+pip install -r requirements.txt
+```
+## Instrucciones de uso
+Descarga los archivos del proyecto, despliega la base de datos, configura los datos de tu servidor de bd y APY_KEY y lanza la aplicacion:
+```python
+py app.py
+```
+La aplicación está desarrollada en línea de comandos. Verás la siguiente información. A partir de ahora eres libre para ejecutar y probar la aplicación.
+## Screenshots
+![Screenshot 1](/docs/img/ss1.png)
+![Screenshot 2](/docs/img/ss2.png)
+![Screenshot 3](/docs/img/ss3.png)
+![Screenshot 4](/docs/img/ss4.png)
+![Screenshot 5](/docs/img/ss5.png)

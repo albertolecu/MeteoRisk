@@ -17,7 +17,7 @@ MeteoRisk es un sistema de información que utiliza fuentes de datos abiertos pa
 ## Base de datos
 * Debes disponer de un servidor de bases de datos MySQL compatible con la versión 9.1.0 o superior.
 * Descarga el archivo **meteo_db.sql** e impórtalo en tu servidor.
-* Descarga el archivo **insert_datos.sql*** e impórtalo en el servidor. El fichero contiene los datos necesarios para realizar la prueba de concepto.
+* Descarga el archivo **insert_datos.sql** e impórtalo en el servidor. El fichero contiene los datos necesarios para realizar la prueba de concepto.
 ## Instalación 
 * Edita el fichero **config.py** con los datos de conexión de tu servidor y con tu APY_KEY de la AEMET. 
 * En el fichero **requirements.txt** encontrarás los paquetes necesarios del proyecto. Recomiendo crear un entorno virtual.
@@ -26,7 +26,7 @@ Ejecuta la siguiente instrucción en la línea de comandos:
 pip install -r requirements.txt
 ```
 ## Instrucciones de uso
-Descarga los archivos del proyecto, incluidos los ficheros **CSV***, despliega la base de datos, configura los parámetros de tu servidor, copia tu APY_KEY y lanza la aplicación:
+Descarga los archivos del proyecto, incluidos los ficheros **CSV**, despliega la base de datos, configura los parámetros de tu servidor, copia tu APY_KEY y lanza la aplicación:
 ```python
 py app.py
 ```

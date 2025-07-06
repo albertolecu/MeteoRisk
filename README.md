@@ -26,7 +26,7 @@ Ejecuta la siguiente instrucción en la línea de comandos:
 pip install -r requirements.txt
 ```
 ## Instrucciones de uso
-Descarga los archivos del proyecto, despliega la base de datos, configura los parámetros de tu servidor, copia tu APY_KEY y lanza la aplicación:
+Descarga los archivos del proyecto, incluidos los ficheros **CSV***, despliega la base de datos, configura los parámetros de tu servidor, copia tu APY_KEY y lanza la aplicación:
 ```python
 py app.py
 ```
